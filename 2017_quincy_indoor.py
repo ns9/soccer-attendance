@@ -99,6 +99,7 @@ def main():
 
     attendance = get_num_players(service,start_of_season,now,'Quincy',debug_print=True)
 
+    attendance['kate.anderson004@gmail.com'] = 1
     num_games = 6;
     ref_fee = 15;
     season_fee = 650;
